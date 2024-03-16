@@ -4,9 +4,44 @@ header{
     text-align: center;
 
 }
-
+h2{
+    position: relative;
+    color: pink;
+    text-align: center;
+    display: inline-block;
+    top: 22vh;
+    left: 7vw;
+}
 .materia_principal{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    margin: 17px 75px;
+}
 
+.materia1, .materia2, .materia3{
+    background-repeat: no-repeat;
+    height: 34vh;
+    background-size: 52vh;
+    margin: 3px 21px;
+}
+.materia1{
+    height: 61vh;
+    background-size: 88vh;
+    grid-row: span 2;
+    background-image: url("bambam.png");
+}
+.materia1 h2{
+    top: 50vh;
+}
+
+.materia2{
+    background-image: url("cachorro.png");
+    position: relative;
+}
+.materia3{
+    background-image: url("sapopema.png");
 }
 
 footer{

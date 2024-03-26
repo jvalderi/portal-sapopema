@@ -36,6 +36,16 @@ h2{
     border-radius: 1vw;
     width: 28.6vw;
 }
+
+.materia2 div, .materia3 div {
+    position: relative;
+    top: 20vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 10vh;
+    font-size: xx-large;
+    border-radius: 0 0 11px 11px;
+}
+
 .materia1{
     height: 51vh;
     width: 39.6vw;

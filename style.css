@@ -37,6 +37,17 @@ h2{
     width: 26.4vw;
 }
 
+.materia1 div{
+    top: 34vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0 0 11px 11px;
+    height: 15.4vh;
+    text-align: inherit;
+    padding-left: 7vw;
+    position: relative;
+    font-size: xxx-large;
+}
+
 .materia2 div, .materia3 div {
     position: relative;
     top: 19vh;

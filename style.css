@@ -1,50 +1,123 @@
-header{
-    background-color: #90EE90;
-    color: #307750;
-    text-align: center;
-
-}
-h2{
-    position: relative;
-    color: pink;
-    text-align: center;
-    display: inline-block;
-    top: 22vh;
-    left: 7vw;
-}
-.materia_principal{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    align-items: center;
-    margin: 17px 75px;
+header {
+        background-color: #90ee90;
+        color: #307750;
+        text-align: center;
+        height: 19vh;
 }
 
-.materia1, .materia2, .materia3{
-    background-repeat: no-repeat;
-    height: 34vh;
-    background-size: 52vh;
-    margin: 3px 21px;
-}
-.materia1{
-    height: 61vh;
-    background-size: 88vh;
-    grid-row: span 2;
-    background-image: url("bambam.png");
-}
-.materia1 h2{
-    top: 50vh;
+header h1 {
+        padding-top: 43px;
+        font-size: xxx-large;
 }
 
-.materia2{
-    background-image: url("cachorro.png");
-    position: relative;
-}
-.materia3{
-    background-image: url("sapopema.png");
+h2 {
+        position: initial;
+        color: white;
+        text-align: left;
+        display: inline-block;
+        font-size: small;
+        top: 22vh;
+        left: 7vw;
 }
 
-footer{
-    background-color: #90EE90;
-    color: #307750;        
+.materias_principal {
+        display: grid;
+        grid-template-columns: 44.9% 33%;
+        grid-template-rows: auto auto;
+        align-items: center;
+        margin: 17px 75px;
+}
+
+.materia2,
+.materia3 {
+        background-repeat: no-repeat;
+        height: 30vh;
+        background-size: cover;
+        margin: 3vh 91px;
+        border-radius: 1vw;
+        width: 26.4vw;
+}
+
+.materia1 div {
+        top: 35vh;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 0 0 11px 11px;
+        height: 15.4vh;
+        text-align: inherit;
+        padding-left: 7vw;
+        position: relative;
+        font-size: xx-large;
+}
+
+.materia2 div,
+.materia3 div {
+        position: relative;
+        top: 16vh;
+        background-color: rgba(0, 0, 0, 0.8);
+        height: 4vh;
+        font-size: small;
+        border-radius: 0 0 11px 11px;
+        padding: 33px;
+}
+
+.materia1 {
+        border-radius: 1vw;
+        height: 50vh;
+        width: 36.6vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-row: span 2;
+        background-image: url("bambam.png");
+}
+
+.materia2 {
+        background-image: url("cachorro.png");
+        position: relative;
+}
+.materia3 {
+        background-image: url("sapopema.png");
+}
+
+.materia_secundaria {
+        margin: 3vw 7vw;
+}
+
+.materia_secundaria1,
+.materia_secundaria2 {
+        background-color: #fff35e;
+        margin-top: 2vh;
+        height: 25vh;
+        border-radius: 3vw;
+        width: 74vw;
+}
+
+.materia_secundaria2 span,
+.materia_secundaria1 span {
+        font-size: x-large;
+        font-weight: bold;
+}
+
+.materia_secundaria1 h2,
+.materia_secundaria2 h2 {
+        width: 34vw;
+        height: 19vh;
+        position: relative;
+        color: black;
+        font-size: xx-large;
+        top: -8vh;
+}
+
+.materia_secundaria img {
+        width: 22vw;
+}
+
+footer {
+        height: 32vh;
+        background-color: #90ee90;
+        color: #307750;
+}
+
+footer p {
+        padding-top: 7vh;
+        font-size: larger;
 }

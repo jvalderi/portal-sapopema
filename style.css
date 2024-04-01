@@ -46,7 +46,7 @@ h2 {
         text-align: inherit;
         padding-left: 7vw;
         position: relative;
-        font-size: xx-large;
+        font-size: xxx-large;
 }
 
 .materia2 div,
@@ -54,8 +54,8 @@ h2 {
         position: relative;
         top: 16vh;
         background-color: rgba(0, 0, 0, 0.8);
-        height: 4vh;
-        font-size: small;
+        height: 7vh;
+        font-size: x-large;
         border-radius: 0 0 11px 11px;
         padding: 33px;
 }
